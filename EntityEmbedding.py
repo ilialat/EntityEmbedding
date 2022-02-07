@@ -46,7 +46,7 @@ class EntityEmbedding():
         input_list = []
         val_map = {}
         for cat in self.cat_col()[0]:
-            values = np.unique(self.features[cat].astype(str)) # ზოგიერთ ობჯექთ სვეტში ფლოუთები იყო შერეული, რის გამოც სტრინგად გარდავქმენით
+            values = np.unique(self.features[cat]) # ზოგიერთ ობჯექთ სვეტში ფლოუთები იყო შერეული, რის გამოც სტრინგად გარდავქმენით
             temp_val_map = {} #აქ ყველა იუნიქ ველიუს შეუსაბამებს ციფრს, რომელიც გადაეწერება საწყის დეითაფრეიმს
             for k in range(len(values)):
                 temp_val_map[values[k]] = k
