@@ -159,7 +159,7 @@ class EntityEmbedding():
         
     def visualize(self):
         # We have done the plotting for you. Just run this cell.
-        words = self.df[self[column]].unique()
+        words = self.df[self.column].unique()
         result = self.compute_pca(self.ent_emb)
         plt.scatter(result[:, 0], result[:, 1])
         for i, word in enumerate(words):
