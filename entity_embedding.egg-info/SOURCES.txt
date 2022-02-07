@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Entity Embedding/EntityEmbedding.py
+Entity Embedding/__init__.py
+entity_embedding.egg-info/PKG-INFO
+entity_embedding.egg-info/SOURCES.txt
+entity_embedding.egg-info/dependency_links.txt
+entity_embedding.egg-info/requires.txt
+entity_embedding.egg-info/top_level.txt
