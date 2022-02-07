@@ -1,0 +1,1 @@
+It uses entity embedding for categorical features
